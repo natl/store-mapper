@@ -1,0 +1,82 @@
+Shopping Centre Name,Level,Store Name,Store Category,WKT Geometry,Store Area (sqm),Sales Last 12 Months
+Banksia Grove Shopping Centre,Ground Floor,Common Areas & Mall,Common Area,"POLYGON ((0 0, 200 0, 200 80, 0 80, 0 0))",16000.0,
+Banksia Grove Shopping Centre,Ground Floor,FreshMart Supermarket,Supermarket,"POLYGON ((2 6, 38 6, 38 74, 2 74, 2 6))",2448.0,22574100
+Banksia Grove Shopping Centre,Ground Floor,Harding & Co.,Department Store,"POLYGON ((164 6, 198 6, 198 74, 164 74, 164 6))",2312.0,7860700
+Banksia Grove Shopping Centre,Ground Floor,Vine & Velvet,Fashion,"POLYGON ((40 48, 51 48, 51 74, 40 74, 40 48))",286.0,2105200
+Banksia Grove Shopping Centre,Ground Floor,Stride Footwear,Footwear,"POLYGON ((51 48, 60 48, 60 74, 51 74, 51 48))",234.0,1590900
+Banksia Grove Shopping Centre,Ground Floor,Glow Beauty Bar,Health & Beauty,"POLYGON ((60 48, 68 48, 68 74, 60 74, 60 48))",208.0,1692000
+Banksia Grove Shopping Centre,Ground Floor,TechHive,Electronics,"POLYGON ((68 48, 80 48, 80 74, 68 74, 68 48))",312.0,4201800
+Banksia Grove Shopping Centre,Ground Floor,Page & Spine Books,Entertainment,"POLYGON ((80 48, 90 48, 90 74, 80 74, 80 48))",260.0,903600
+Banksia Grove Shopping Centre,Ground Floor,The Linen Loft,Homewares,"POLYGON ((90 48, 101 48, 101 74, 90 74, 90 48))",286.0,1117600
+Banksia Grove Shopping Centre,Ground Floor,Golden Carat Jewellers,Jewellery,"POLYGON ((101 48, 109 48, 109 74, 101 74, 101 48))",208.0,3278400
+Banksia Grove Shopping Centre,Ground Floor,Little Sprouts Kidswear,Fashion,"POLYGON ((109 48, 119 48, 119 74, 109 74, 109 48))",260.0,1466300
+Banksia Grove Shopping Centre,Ground Floor,Optique Eyewear,Health & Beauty,"POLYGON ((119 48, 127 48, 127 74, 119 74, 119 48))",208.0,2236600
+Banksia Grove Shopping Centre,Ground Floor,Bloom & Co. Florist,Services,"POLYGON ((127 48, 134 48, 134 74, 127 74, 127 48))",182.0,1162400
+Banksia Grove Shopping Centre,Ground Floor,Pawsome Pet Supplies,Homewares,"POLYGON ((134 48, 144 48, 144 74, 134 74, 134 48))",260.0,1557000
+Banksia Grove Shopping Centre,Ground Floor,Reject Republic,Mini Major,"POLYGON ((144 48, 164 48, 164 74, 144 74, 144 48))",520.0,2739300
+Banksia Grove Shopping Centre,Ground Floor,Chemist Direct,Health & Beauty,"POLYGON ((40 6, 53 6, 53 32, 40 32, 40 6))",338.0,3816400
+Banksia Grove Shopping Centre,Ground Floor,Banksia News & Lotto,Services,"POLYGON ((53 6, 60 6, 60 32, 53 32, 53 6))",182.0,1201900
+Banksia Grove Shopping Centre,Ground Floor,Snip City Barbers,Services,"POLYGON ((60 6, 66 6, 66 32, 60 32, 60 6))",156.0,593000
+Banksia Grove Shopping Centre,Ground Floor,Telco Hub,Electronics,"POLYGON ((66 6, 74 6, 74 32, 66 32, 66 6))",208.0,2161100
+Banksia Grove Shopping Centre,Ground Floor,Kicks Locker,Footwear,"POLYGON ((74 6, 84 6, 84 32, 74 32, 74 6))",260.0,1648200
+Banksia Grove Shopping Centre,Ground Floor,Nail Envy,Health & Beauty,"POLYGON ((84 6, 90 6, 90 32, 84 32, 84 6))",156.0,1681500
+Banksia Grove Shopping Centre,Ground Floor,Game Vault,Entertainment,"POLYGON ((90 6, 99 6, 99 32, 90 32, 90 6))",234.0,591100
+Banksia Grove Shopping Centre,Ground Floor,Urban Thread Menswear,Fashion,"POLYGON ((99 6, 110 6, 110 32, 99 32, 99 6))",286.0,1330300
+Banksia Grove Shopping Centre,Ground Floor,Coastal Casuals,Fashion,"POLYGON ((110 6, 119 6, 119 32, 110 32, 110 6))",234.0,1626500
+Banksia Grove Shopping Centre,Ground Floor,HomeBrew Coffee Roasters,Food & Beverage,"POLYGON ((119 6, 126 6, 126 32, 119 32, 119 6))",182.0,2684800
+Banksia Grove Shopping Centre,Ground Floor,Crusty's Bakehouse,Food & Beverage,"POLYGON ((126 6, 132 6, 132 24, 126 24, 126 6))",108.0,1304600
+Banksia Grove Shopping Centre,Ground Floor,Sushi Hana,Food & Beverage,"POLYGON ((132 6, 138 6, 138 24, 132 24, 132 6))",108.0,1686200
+Banksia Grove Shopping Centre,Ground Floor,Pho Real,Food & Beverage,"POLYGON ((138 6, 143 6, 143 24, 138 24, 138 6))",90.0,1187100
+Banksia Grove Shopping Centre,Ground Floor,Burrito Bandito,Food & Beverage,"POLYGON ((143 6, 149 6, 149 24, 143 24, 143 6))",108.0,1629000
+Banksia Grove Shopping Centre,Ground Floor,Wok This Way,Food & Beverage,"POLYGON ((149 6, 154 6, 154 24, 149 24, 149 6))",90.0,1202500
+Banksia Grove Shopping Centre,Ground Floor,Juice Junction,Food & Beverage,"POLYGON ((154 6, 159 6, 159 24, 154 24, 154 6))",90.0,1087600
+Banksia Grove Shopping Centre,Ground Floor,Donut Dreams,Food & Beverage,"POLYGON ((159 6, 164 6, 164 24, 159 24, 159 6))",90.0,899700
+Banksia Grove Shopping Centre,Ground Floor,Food Court Seating,Common Area,"POLYGON ((126 24, 164 24, 164 32, 126 32, 126 24))",304.0,
+Banksia Grove Shopping Centre,Ground Floor,Cobbler & Keys,Kiosk,"POLYGON ((52 40, 56 40, 56 44, 52 44, 52 40))",16.0,239400
+Banksia Grove Shopping Centre,Ground Floor,PhoneFix Kiosk,Kiosk,"POLYGON ((76 40, 80 40, 80 44, 76 44, 76 40))",16.0,385200
+Banksia Grove Shopping Centre,Ground Floor,Sock Stop,Kiosk,"POLYGON ((100 40, 104 40, 104 44, 100 44, 100 40))",16.0,227800
+Banksia Grove Shopping Centre,Ground Floor,Bright Smile Whitening,Kiosk,"POLYGON ((124 40, 128 40, 128 44, 124 44, 124 40))",16.0,283800
+Banksia Grove Shopping Centre,Ground Floor,Banksia Gift Cards,Kiosk,"POLYGON ((148 40, 152 40, 152 44, 148 44, 148 40))",16.0,285500
+Banksia Grove Shopping Centre,Ground Floor,Concierge Desk,Services,POINT (40 42),,
+Banksia Grove Shopping Centre,Level 1,Level 1 Walkways,Common Area,"POLYGON ((0 0, 200 0, 200 80, 0 80, 0 0))",16000.0,
+Banksia Grove Shopping Centre,Level 1,Atrium Void,Common Area,"POLYGON ((60 38, 144 38, 144 46, 60 46, 60 38))",672.0,
+Banksia Grove Shopping Centre,Level 1,Pulse 24:7 Fitness,Fitness,"POLYGON ((2 6, 38 6, 38 74, 2 74, 2 6))",2448.0,4165900
+Banksia Grove Shopping Centre,Level 1,Galaxy Cinemas,Entertainment,"POLYGON ((164 6, 198 6, 198 74, 164 74, 164 6))",2312.0,8427300
+Banksia Grove Shopping Centre,Level 1,Outlet Avenue Fashion,Fashion,"POLYGON ((40 48, 56 48, 56 74, 40 74, 40 48))",416.0,2965200
+Banksia Grove Shopping Centre,Level 1,The Bargain Bookshop,Entertainment,"POLYGON ((56 48, 68 48, 68 74, 56 74, 56 48))",312.0,1267800
+Banksia Grove Shopping Centre,Level 1,Clearance Home Co.,Homewares,"POLYGON ((68 48, 84 48, 84 74, 68 74, 68 48))",416.0,2163200
+Banksia Grove Shopping Centre,Level 1,Retro Arcade Alley,Entertainment,"POLYGON ((84 48, 98 48, 98 74, 84 74, 84 48))",364.0,1634500
+Banksia Grove Shopping Centre,Level 1,Hobby Haven,Entertainment,"POLYGON ((98 48, 110 48, 110 74, 98 74, 98 48))",312.0,1012000
+Banksia Grove Shopping Centre,Level 1,Second Fit Activewear,Fashion,"POLYGON ((110 48, 122 48, 122 74, 110 74, 110 48))",312.0,1704700
+Banksia Grove Shopping Centre,Level 1,Studio Snap Photography,Services,"POLYGON ((122 48, 132 48, 132 74, 122 74, 122 48))",260.0,840700
+Banksia Grove Shopping Centre,Level 1,Banksia Medical Centre,Medical,"POLYGON ((132 48, 164 48, 164 74, 132 74, 132 48))",832.0,4611800
+Banksia Grove Shopping Centre,Level 1,Skin Deep Dermal Clinic,Health & Beauty,"POLYGON ((40 6, 52 6, 52 32, 40 32, 40 6))",312.0,2229400
+Banksia Grove Shopping Centre,Level 1,Banksia Dental,Medical,"POLYGON ((52 6, 64 6, 64 32, 52 32, 52 6))",312.0,1598200
+Banksia Grove Shopping Centre,Level 1,Lotus Day Spa,Health & Beauty,"POLYGON ((64 6, 76 6, 76 32, 64 32, 64 6))",312.0,2569500
+Banksia Grove Shopping Centre,Level 1,TaxPro Accountants,Services,"POLYGON ((76 6, 86 6, 86 32, 76 32, 76 6))",260.0,1693300
+Banksia Grove Shopping Centre,Level 1,Lingua Language School,Services,"POLYGON ((86 6, 98 6, 98 32, 86 32, 86 6))",312.0,2006900
+Banksia Grove Shopping Centre,Level 1,Bright Beginnings Childcare,Services,"POLYGON ((98 6, 118 6, 118 32, 98 32, 98 6))",520.0,1612900
+Banksia Grove Shopping Centre,Level 1,Vacant Tenancy 1.12,Vacant,"POLYGON ((118 6, 132 6, 132 32, 118 32, 118 6))",364.0,
+Banksia Grove Shopping Centre,Level 1,Centre Management,Services,"POLYGON ((132 6, 164 6, 164 32, 132 32, 132 6))",832.0,5809600
+Banksia Grove Shopping Centre,Level 1,Espresso Landing,Kiosk,"POLYGON ((48 40, 52 40, 52 44, 48 44, 48 40))",16.0,223700
+Banksia Grove Shopping Centre,Level 1,Churro Cart,Kiosk,"POLYGON ((150 40, 154 40, 154 44, 150 44, 150 40))",16.0,230900
+Marlow Quays Shopping Village,Ground Floor,Common Areas & Walkway,Common Area,"POLYGON ((0 0, 120 0, 120 35, 45 35, 45 70, 0 70, 0 0))",5775.0,
+Marlow Quays Shopping Village,Ground Floor,GreenGrocer Market Hall,Supermarket,"POLYGON ((2 37, 43 37, 43 68, 2 68, 2 37))",1271.0,13108400
+Marlow Quays Shopping Village,Ground Floor,Quays Pharmacy,Health & Beauty,"POLYGON ((2 2, 14 2, 14 20, 2 20, 2 2))",216.0,2501900
+Marlow Quays Shopping Village,Ground Floor,Marlow Meats,Food & Beverage,"POLYGON ((14 2, 23 2, 23 20, 14 20, 14 2))",162.0,1514400
+Marlow Quays Shopping Village,Ground Floor,The Daily Loaf,Food & Beverage,"POLYGON ((23 2, 31 2, 31 20, 23 20, 23 2))",144.0,1690000
+Marlow Quays Shopping Village,Ground Floor,Catch of the Quay,Food & Beverage,"POLYGON ((31 2, 40 2, 40 20, 31 20, 31 2))",162.0,2490400
+Marlow Quays Shopping Village,Ground Floor,Village Cellars,Food & Beverage,"POLYGON ((40 2, 50 2, 50 20, 40 20, 40 2))",180.0,2178100
+Marlow Quays Shopping Village,Ground Floor,Coastline Surf & Skate,Fashion,"POLYGON ((50 2, 62 2, 62 20, 50 20, 50 2))",216.0,1315400
+Marlow Quays Shopping Village,Ground Floor,Quays Newsagency,Services,"POLYGON ((62 2, 70 2, 70 20, 62 20, 62 2))",144.0,832700
+Marlow Quays Shopping Village,Ground Floor,Hook & Needle Crafts,Homewares,"POLYGON ((70 2, 80 2, 80 20, 70 20, 70 2))",180.0,1035900
+Marlow Quays Shopping Village,Ground Floor,Bayside Bites Cafe,Food & Beverage,"POLYGON ((80 2, 91 2, 91 20, 80 20, 80 2))",198.0,2602800
+Marlow Quays Shopping Village,Ground Floor,Marlow Quays Cellars Door,Entertainment,"POLYGON ((91 2, 102 2, 102 20, 91 20, 91 2))",198.0,859900
+Marlow Quays Shopping Village,Ground Floor,Dockside Fish & Chips,Food & Beverage,"POLYGON ((102 2, 118 2, 118 20, 102 20, 102 2))",288.0,4417500
+Marlow Quays Shopping Village,Ground Floor,Quays Dry Cleaning,Services,"POLYGON ((66 27, 76 27, 76 33, 66 33, 66 27))",60.0,355000
+Marlow Quays Shopping Village,Ground Floor,Anchor Bank ATM Lobby,Services,"POLYGON ((76 27, 82 27, 82 33, 76 33, 76 27))",36.0,187600
+Marlow Quays Shopping Village,Ground Floor,Tide Watch Repairs,Services,"POLYGON ((82 27, 89 27, 89 33, 82 33, 82 27))",42.0,144700
+Marlow Quays Shopping Village,Ground Floor,Sea Salt Hair Studio,Services,"POLYGON ((89 27, 99 27, 99 33, 89 33, 89 27))",60.0,293100
+Marlow Quays Shopping Village,Ground Floor,Quays Community Hub,Services,"POLYGON ((99 27, 113 27, 113 33, 99 33, 99 27))",84.0,433100
+Marlow Quays Shopping Village,Ground Floor,The Quayside Pantry,Food & Beverage,"POLYGON ((47 27, 62 27, 62 33, 52 33, 47 30, 47 27))",82.5,1121100
+Marlow Quays Shopping Village,Ground Floor,Village Green Stage,Entertainment,POINT (30 28),,

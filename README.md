@@ -60,6 +60,17 @@ Assumptions and edge-case behavior:
   fx rule is based on a field that is not bound as the Color measure, the
   legend is hidden rather than fabricating a scale.
 
+## Sample datasets
+
+`mapdata/` contains starter CSVs for manual testing in Power BI Desktop — each
+row's `WKT Geometry` column binds to the Geometry field:
+
+| File | Contents |
+|---|---|
+| `wkt-map-sample-data.csv` | Shopping-centre floor plan: common areas and tenancies by category, one level. |
+| `wkt-map-supermarket-sample.csv` | Single supermarket floor plan: registers, service counter, back-of-house, aisles. |
+| `wkt-map-planogram-sample.csv` | Planogram bay/shelf geometries for a single aisle set. |
+
 ## Project layout
 
 ```

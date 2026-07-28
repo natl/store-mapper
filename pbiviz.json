@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "store-mapper",
+        "displayName": "Store Mapper",
+        "guid": "wktMap3A4EFA2222D64C5B92667C4891A85D6E",
+        "visualClassName": "Visual",
+        "version": "1.1.0.2",
+        "description": "Renders planar x/y WKT geometries (store bays, tenancies, floor plans, planogram items) with pan/zoom, labels, heatmap and categorical coloring, legend and scale bar. Not a geographic map: coordinates are arbitrary planar units, no projections or tiles.",
+        "supportUrl": "https://github.com/natl/store-mapper/issues",
+        "gitHubUrl": "https://github.com/natl/store-mapper"
+    },
+    "apiVersion": "5.11.0",
+    "author": {
+        "name": "Nathanael Lampe",
+        "email": "replace@example.invalid"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.1.0.2"
+}

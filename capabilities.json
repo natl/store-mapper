@@ -1,0 +1,301 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Geometry (WKT)",
+            "description": "One WKT string per row: POINT, LINESTRING, POLYGON, MULTIPOINT, MULTILINESTRING or MULTIPOLYGON. Planar x/y coordinates. GEOMETRYCOLLECTION is not supported.",
+            "name": "geometry",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Label",
+            "description": "Text drawn at each geometry centroid (bay number, shop name).",
+            "name": "label",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Color Category",
+            "description": "Palette-based categorical fill (e.g. tenant type).",
+            "name": "colorCategory",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Color",
+            "description": "Sequential heatmap fill from a measure. The measure's own default aggregation is used.",
+            "name": "colorValue",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Z Order",
+            "description": "Optional numeric draw order. Lowest values draw first (underneath). Ties preserve input order.",
+            "name": "zOrder",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Tooltip Values",
+            "description": "Extra rows shown in the tooltip.",
+            "name": "tooltips",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "colors": {
+            "properties": {
+                "defaultColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "minColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "maxColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "logScale": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        },
+        "dataColors": {
+            "properties": {
+                "fill": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "stroke": {
+            "properties": {
+                "strokeColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "strokeWidth": {
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "selectedStrokeWidth": {
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "labels": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "textSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                },
+                "color": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "legend": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "position": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "displayName": "Top left",
+                                "value": "topLeft"
+                            },
+                            {
+                                "displayName": "Top right",
+                                "value": "topRight"
+                            },
+                            {
+                                "displayName": "Bottom left",
+                                "value": "bottomLeft"
+                            },
+                            {
+                                "displayName": "Bottom right",
+                                "value": "bottomRight"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "scaleBar": {
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "units": {
+                    "type": {
+                        "enumeration": [
+                            {
+                                "displayName": "Metres",
+                                "value": "metres"
+                            },
+                            {
+                                "displayName": "Feet",
+                                "value": "feet"
+                            },
+                            {
+                                "displayName": "Custom",
+                                "value": "custom"
+                            }
+                        ]
+                    }
+                },
+                "customUnitLabel": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "unitsPerCoordinate": {
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "map": {
+            "properties": {
+                "flipY": {
+                    "type": {
+                        "bool": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "geometry": {
+                        "max": 1
+                    },
+                    "label": {
+                        "max": 1
+                    },
+                    "colorCategory": {
+                        "max": 1
+                    },
+                    "colorValue": {
+                        "max": 1
+                    },
+                    "zOrder": {
+                        "max": 1
+                    },
+                    "tooltips": {
+                        "max": 10
+                    }
+                }
+            ],
+            "categorical": {
+                "categories": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "geometry"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "label"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "colorCategory"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "zOrder"
+                            }
+                        }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 30000
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "colorValue"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "tooltips"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "tooltips": {
+        "supportedTypes": {
+            "default": true,
+            "canvas": true
+        },
+        "roles": [
+            "tooltips"
+        ]
+    },
+    "supportsHighlight": true,
+    "supportsMultiVisualSelection": true,
+    "supportsKeyboardFocus": true,
+    "supportsLandingPage": false,
+    "privileges": []
+}

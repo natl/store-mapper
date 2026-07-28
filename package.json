@@ -1,0 +1,41 @@
+{
+  "name": "store-mapper",
+  "description": "Power BI custom visual rendering planar x/y WKT geometries (indoor/store maps).",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natl/store-mapper"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint .",
+    "test": "jest",
+    "smoke": "tsc -p harness/tsconfig.harness.json && mkdir -p .tmp/harness-js/style && touch .tmp/harness-js/style/visual.less && esbuild .tmp/harness-js/harness/harness.js --bundle --platform=node --format=cjs --outfile=.tmp/harness.bundle.js --loader:.less=empty --log-level=warning && node harness/runner.cjs",
+    "smoke:packaged": "node harness/extract-bundle.cjs && node harness/packaged.cjs .tmp/packaged-resource.json"
+  },
+  "dependencies": {
+    "@types/d3": "7.4.3",
+    "d3": "7.9.0",
+    "powerbi-visuals-api": "5.11.0",
+    "powerbi-visuals-utils-dataviewutils": "^7.0.0",
+    "powerbi-visuals-utils-formattingmodel": "^6.2.2",
+    "powerbi-visuals-utils-formattingutils": "^6.1.2",
+    "wellknown": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/wellknown": "^0.5.8",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "esbuild": "^0.28.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-powerbi-visuals": "^1.0.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "powerbi-visuals-utils-testutils": "^6.1.1",
+    "ts-jest": "^29.4.11",
+    "typescript": "5.5.4"
+  }
+}

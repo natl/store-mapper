@@ -1,0 +1,17 @@
+{
+		"version": "1.1.0.2",
+		"author": {"name":"REPLACE BEFORE SUBMISSION","email":"replace@example.invalid"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/wktMap3A4EFA2222D64C5B92667C4891A85D6E.pbiviz.json"
+			}
+		],
+		"visual": {"name":"wktMap","displayName":"WKT Map","guid":"wktMap3A4EFA2222D64C5B92667C4891A85D6E","visualClassName":"Visual","version":"1.1.0.2","description":"Renders planar x/y WKT geometries (store bays, tenancies, floor plans, planogram items) with pan/zoom, labels, heatmap and categorical coloring, legend and scale bar. Not a geographic map: coordinates are arbitrary planar units, no projections or tiles.","supportUrl":"https://REPLACE-BEFORE-SUBMISSION.example/support","gitHubUrl":"https://REPLACE-BEFORE-SUBMISSION.example/repo"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

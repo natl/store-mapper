@@ -1,0 +1,78 @@
+.wkt-map-root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Segoe UI", wf_segoe-ui_normal, helvetica, arial, sans-serif;
+
+    svg.wkt-map-svg {
+        display: block;
+        cursor: grab;
+
+        &:active {
+            cursor: grabbing;
+        }
+
+        path.shape {
+            // Paint attributes (fill/stroke/opacity) are set exclusively by
+            // the render-state resolver in code — never here.
+            cursor: pointer;
+
+            // Visible keyboard focus ring; the focus color is driven by a
+            // CSS variable set from the host palette so it works in high
+            // contrast.
+            &:focus {
+                outline: none;
+            }
+
+            &:focus-visible {
+                outline: none;
+                stroke-dasharray: none;
+                filter: drop-shadow(0 0 2px var(--wkt-focus-color, #000));
+            }
+        }
+
+        text.shape-label {
+            pointer-events: none;
+            user-select: none;
+        }
+
+        g.legend,
+        g.scale-bar,
+        g.status {
+            pointer-events: none;
+        }
+    }
+
+    .wkt-map-buttons {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        z-index: 2;
+
+        button {
+            width: 28px;
+            height: 28px;
+            padding: 0;
+            border: 1px solid var(--wkt-focus-color, #c8c6c4);
+            border-radius: 2px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #252423;
+            font-size: 14px;
+            line-height: 1;
+            cursor: pointer;
+
+            &:hover {
+                background: #f3f2f1;
+            }
+
+            &:focus-visible {
+                outline: 2px solid var(--wkt-focus-color, #000);
+                outline-offset: 1px;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "es2022",
+        "moduleResolution": "node",
+        "lib": ["es2022", "dom"],
+        "outDir": "../.tmp/harness-js",
+        "rootDir": "..",
+        "sourceMap": false,
+        "declaration": false,
+        "esModuleInterop": false,
+        "experimentalDecorators": true,
+        "skipLibCheck": true
+    },
+    "include": ["./harness.ts", "../src/**/*.ts"]
+}

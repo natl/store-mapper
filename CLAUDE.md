@@ -47,11 +47,14 @@ Unit tests cover pure `core/` functions but can't catch a transient exception mi
 
 ## CI and releases
 
-`.github/workflows/ci.yml` has two jobs:
-- `test` — runs on every push and PR to `main`: lint, unit tests, smoke tests. Required as a status check on `main` (branch protection).
+`.github/workflows/ci.yml` has three jobs:
+- `test` — runs on every push and PR to `main` and `develop`: lint, unit tests, smoke tests. Required as a status check on both branches (see below).
 - `release` — runs only on a push to `main` (not PRs) after `test` passes. Reads the version from `pbiviz.json`, skips if a GitHub Release for that tag (`v<version>`) already exists, otherwise runs `npx pbiviz package` and publishes the `.pbiviz` file as a new Release via `gh release create`.
+- `develop-build` — runs only on a push to `develop` (not PRs) after `test` passes. Packages the visual, runs `npm run smoke:packaged` against the built bundle, and uploads the `.pbiviz` as a short-lived (14-day) workflow artifact — a downloadable build for manual sideload testing in Power BI Desktop. This is deliberately *not* a GitHub Release; releases stay reserved for `main`.
 
 **Releasing means bumping the version.** A push to `main` that doesn't change `pbiviz.json`'s `version` field produces no new release (the existing-tag check makes this a no-op, not a failure). To cut a release, bump `visual.version` and the top-level `version` in `pbiviz.json` (keep them equal) before merging — see the versioning note in the README's AppSource section for the segment convention already in use.
+
+**Branch protection.** Both `main` and `develop` are covered by GitHub repository rulesets (not classic branch protection) requiring a PR and a passing `test` status check before merging — `main`'s is named "Protect Default Branch" (targets `~DEFAULT_BRANCH`), `develop`'s is a separate ruleset ("Protect Develop Branch") since it needs an explicit `refs/heads/develop` target. Check current rules with `gh api repos/:owner/:repo/rulesets`.
 
 ## Conventions specific to this repo
 

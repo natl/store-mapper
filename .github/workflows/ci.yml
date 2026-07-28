@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
-    branches: [main]
+    branches: [main, develop]
 
 jobs:
   test:
@@ -73,3 +73,30 @@ jobs:
             --target "${{ github.sha }}" \
             --title "v${{ steps.version.outputs.version }}" \
             --generate-notes
+
+  develop-build:
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Package visual
+        run: npx pbiviz package
+
+      - name: Smoke test packaged bundle
+        run: npm run smoke:packaged
+
+      - name: Upload packaged visual
+        uses: actions/upload-artifact@v4
+        with:
+          name: store-mapper-develop-${{ github.sha }}
+          path: dist/*.pbiviz
+          retention-days: 14

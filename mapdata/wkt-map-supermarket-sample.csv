@@ -1,0 +1,130 @@
+Store Name,Element Name,Category,Aisle,Bay,WKT Geometry,Z Order,Store Area (sqm),Sales Last 12 Months
+FreshMart Banksia Grove,Store Envelope,Store Profile,,,"POLYGON ((0 0, 46 0, 50 4, 50 32, 0 32, 0 0))",0,1592.0,
+FreshMart Banksia Grove,Back of House,Back of House,,,"POLYGON ((0 27, 50 27, 50 32, 0 32, 0 27))",1,250.0,
+FreshMart Banksia Grove,Customer Service & Lotto,Service Counter,,,"POLYGON ((2 1, 8 1, 8 5, 2 5, 2 1))",1,24.0,
+FreshMart Banksia Grove,Register 1,Register,,,"POLYGON ((12 1.5, 13.6 1.5, 13.6 5.5, 12 5.5, 12 1.5))",1,6.4,
+FreshMart Banksia Grove,Register 2,Register,,,"POLYGON ((15.6 1.5, 17.2 1.5, 17.2 5.5, 15.6 5.5, 15.6 1.5))",1,6.4,
+FreshMart Banksia Grove,Register 3,Register,,,"POLYGON ((19.2 1.5, 20.8 1.5, 20.8 5.5, 19.2 5.5, 19.2 1.5))",1,6.4,
+FreshMart Banksia Grove,Register 4,Register,,,"POLYGON ((22.8 1.5, 24.4 1.5, 24.4 5.5, 22.8 5.5, 22.8 1.5))",1,6.4,
+FreshMart Banksia Grove,Register 5,Register,,,"POLYGON ((26.4 1.5, 28 1.5, 28 5.5, 26.4 5.5, 26.4 1.5))",1,6.4,
+FreshMart Banksia Grove,Register 6,Register,,,"POLYGON ((30 1.5, 31.6 1.5, 31.6 5.5, 30 5.5, 30 1.5))",1,6.4,
+FreshMart Banksia Grove,Self-Checkout Pod,Register,,,"POLYGON ((34 1.5, 39.5 1.5, 39.5 5.5, 34 5.5, 34 1.5))",1,22.0,
+FreshMart Banksia Grove,Entry Airlock,Entry,,,"POLYGON ((41 1, 46 1, 46 5, 41 5, 41 1))",1,20.0,
+FreshMart Banksia Grove,Trolley Bay,Entry,,,"POLYGON ((47 5, 49.5 5, 49.5 10, 47 10, 47 5))",1,12.5,
+FreshMart Banksia Grove,Deli & Seafood Counter,Service Counter,,,"POLYGON ((46.5 10, 49.5 10, 49.5 20, 46.5 20, 46.5 10))",1,30.0,
+FreshMart Banksia Grove,Bakery Counter,Service Counter,,,"POLYGON ((46.5 20, 49.5 20, 49.5 26, 46.5 26, 46.5 20))",1,18.0,
+FreshMart Banksia Grove,Security Podium,Entry,,,POINT (43 6.2),1,,
+FreshMart Banksia Grove,Aisle 1 Bay 01,Grocery Bay,Aisle 1,01,"POLYGON ((4 8, 5.3 8, 5.3 9.6, 4 9.6, 4 8))",2,2.08,171100
+FreshMart Banksia Grove,Aisle 1 Bay 02,Grocery Bay,Aisle 1,02,"POLYGON ((4 9.6, 5.3 9.6, 5.3 11.2, 4 11.2, 4 9.6))",2,2.08,181700
+FreshMart Banksia Grove,Aisle 1 Bay 03,Grocery Bay,Aisle 1,03,"POLYGON ((4 11.2, 5.3 11.2, 5.3 12.8, 4 12.8, 4 11.2))",2,2.08,173800
+FreshMart Banksia Grove,Aisle 1 Bay 04,Grocery Bay,Aisle 1,04,"POLYGON ((4 12.8, 5.3 12.8, 5.3 14.4, 4 14.4, 4 12.8))",2,2.08,97000
+FreshMart Banksia Grove,Aisle 1 Bay 05,Grocery Bay,Aisle 1,05,"POLYGON ((4 14.4, 5.3 14.4, 5.3 16, 4 16, 4 14.4))",2,2.08,109400
+FreshMart Banksia Grove,Aisle 1 Bay 06,Grocery Bay,Aisle 1,06,"POLYGON ((4 16, 5.3 16, 5.3 17.6, 4 17.6, 4 16))",2,2.08,184900
+FreshMart Banksia Grove,Aisle 1 Bay 07,Grocery Bay,Aisle 1,07,"POLYGON ((4 17.6, 5.3 17.6, 5.3 19.2, 4 19.2, 4 17.6))",2,2.08,190400
+FreshMart Banksia Grove,Aisle 1 Bay 08,Grocery Bay,Aisle 1,08,"POLYGON ((4 19.2, 5.3 19.2, 5.3 20.8, 4 20.8, 4 19.2))",2,2.08,122700
+FreshMart Banksia Grove,Aisle 1 Bay 09,Grocery Bay,Aisle 1,09,"POLYGON ((4 20.8, 5.3 20.8, 5.3 22.4, 4 22.4, 4 20.8))",2,2.08,137100
+FreshMart Banksia Grove,Aisle 1 Bay 10,Grocery Bay,Aisle 1,10,"POLYGON ((4 22.4, 5.3 22.4, 5.3 24, 4 24, 4 22.4))",2,2.08,144700
+FreshMart Banksia Grove,Aisle 1 End Cap South,End Cap,Aisle 1,End S,"POLYGON ((4 6.7, 5.3 6.7, 5.3 8, 4 8, 4 6.7))",2,1.69,197100
+FreshMart Banksia Grove,Aisle 1 End Cap North,End Cap,Aisle 1,End N,"POLYGON ((4 24, 5.3 24, 5.3 25.3, 4 25.3, 4 24))",2,1.69,250800
+FreshMart Banksia Grove,Aisle 2 Bay 01,Grocery Bay,Aisle 2,01,"POLYGON ((7.5 8, 8.8 8, 8.8 9.6, 7.5 9.6, 7.5 8))",2,2.08,149800
+FreshMart Banksia Grove,Aisle 2 Bay 02,Grocery Bay,Aisle 2,02,"POLYGON ((7.5 9.6, 8.8 9.6, 8.8 11.2, 7.5 11.2, 7.5 9.6))",2,2.08,169700
+FreshMart Banksia Grove,Aisle 2 Bay 03,Grocery Bay,Aisle 2,03,"POLYGON ((7.5 11.2, 8.8 11.2, 8.8 12.8, 7.5 12.8, 7.5 11.2))",2,2.08,190000
+FreshMart Banksia Grove,Aisle 2 Bay 04,Grocery Bay,Aisle 2,04,"POLYGON ((7.5 12.8, 8.8 12.8, 8.8 14.4, 7.5 14.4, 7.5 12.8))",2,2.08,129800
+FreshMart Banksia Grove,Aisle 2 Bay 05,Grocery Bay,Aisle 2,05,"POLYGON ((7.5 14.4, 8.8 14.4, 8.8 16, 7.5 16, 7.5 14.4))",2,2.08,163400
+FreshMart Banksia Grove,Aisle 2 Bay 06,Grocery Bay,Aisle 2,06,"POLYGON ((7.5 16, 8.8 16, 8.8 17.6, 7.5 17.6, 7.5 16))",2,2.08,127000
+FreshMart Banksia Grove,Aisle 2 Bay 07,Grocery Bay,Aisle 2,07,"POLYGON ((7.5 17.6, 8.8 17.6, 8.8 19.2, 7.5 19.2, 7.5 17.6))",2,2.08,100600
+FreshMart Banksia Grove,Aisle 2 Bay 08,Grocery Bay,Aisle 2,08,"POLYGON ((7.5 19.2, 8.8 19.2, 8.8 20.8, 7.5 20.8, 7.5 19.2))",2,2.08,110100
+FreshMart Banksia Grove,Aisle 2 Bay 09,Grocery Bay,Aisle 2,09,"POLYGON ((7.5 20.8, 8.8 20.8, 8.8 22.4, 7.5 22.4, 7.5 20.8))",2,2.08,162300
+FreshMart Banksia Grove,Aisle 2 Bay 10,Grocery Bay,Aisle 2,10,"POLYGON ((7.5 22.4, 8.8 22.4, 8.8 24, 7.5 24, 7.5 22.4))",2,2.08,115900
+FreshMart Banksia Grove,Aisle 2 End Cap South,End Cap,Aisle 2,End S,"POLYGON ((7.5 6.7, 8.8 6.7, 8.8 8, 7.5 8, 7.5 6.7))",2,1.69,315600
+FreshMart Banksia Grove,Aisle 2 End Cap North,End Cap,Aisle 2,End N,"POLYGON ((7.5 24, 8.8 24, 8.8 25.3, 7.5 25.3, 7.5 24))",2,1.69,364100
+FreshMart Banksia Grove,Aisle 3 Bay 01,Grocery Bay,Aisle 3,01,"POLYGON ((11 8, 12.3 8, 12.3 9.6, 11 9.6, 11 8))",2,2.08,153100
+FreshMart Banksia Grove,Aisle 3 Bay 02,Grocery Bay,Aisle 3,02,"POLYGON ((11 9.6, 12.3 9.6, 12.3 11.2, 11 11.2, 11 9.6))",2,2.08,131900
+FreshMart Banksia Grove,Aisle 3 Bay 03,Grocery Bay,Aisle 3,03,"POLYGON ((11 11.2, 12.3 11.2, 12.3 12.8, 11 12.8, 11 11.2))",2,2.08,165300
+FreshMart Banksia Grove,Aisle 3 Bay 04,Grocery Bay,Aisle 3,04,"POLYGON ((11 12.8, 12.3 12.8, 12.3 14.4, 11 14.4, 11 12.8))",2,2.08,102100
+FreshMart Banksia Grove,Aisle 3 Bay 05,Grocery Bay,Aisle 3,05,"POLYGON ((11 14.4, 12.3 14.4, 12.3 16, 11 16, 11 14.4))",2,2.08,136000
+FreshMart Banksia Grove,Aisle 3 Bay 06,Grocery Bay,Aisle 3,06,"POLYGON ((11 16, 12.3 16, 12.3 17.6, 11 17.6, 11 16))",2,2.08,115600
+FreshMart Banksia Grove,Aisle 3 Bay 07,Grocery Bay,Aisle 3,07,"POLYGON ((11 17.6, 12.3 17.6, 12.3 19.2, 11 19.2, 11 17.6))",2,2.08,136500
+FreshMart Banksia Grove,Aisle 3 Bay 08,Grocery Bay,Aisle 3,08,"POLYGON ((11 19.2, 12.3 19.2, 12.3 20.8, 11 20.8, 11 19.2))",2,2.08,112900
+FreshMart Banksia Grove,Aisle 3 Bay 09,Grocery Bay,Aisle 3,09,"POLYGON ((11 20.8, 12.3 20.8, 12.3 22.4, 11 22.4, 11 20.8))",2,2.08,171800
+FreshMart Banksia Grove,Aisle 3 Bay 10,Grocery Bay,Aisle 3,10,"POLYGON ((11 22.4, 12.3 22.4, 12.3 24, 11 24, 11 22.4))",2,2.08,146200
+FreshMart Banksia Grove,Aisle 3 End Cap South,End Cap,Aisle 3,End S,"POLYGON ((11 6.7, 12.3 6.7, 12.3 8, 11 8, 11 6.7))",2,1.69,334800
+FreshMart Banksia Grove,Aisle 3 End Cap North,End Cap,Aisle 3,End N,"POLYGON ((11 24, 12.3 24, 12.3 25.3, 11 25.3, 11 24))",2,1.69,338900
+FreshMart Banksia Grove,Aisle 4 Bay 01,Grocery Bay,Aisle 4,01,"POLYGON ((14.5 8, 15.8 8, 15.8 9.6, 14.5 9.6, 14.5 8))",2,2.08,103200
+FreshMart Banksia Grove,Aisle 4 Bay 02,Grocery Bay,Aisle 4,02,"POLYGON ((14.5 9.6, 15.8 9.6, 15.8 11.2, 14.5 11.2, 14.5 9.6))",2,2.08,167400
+FreshMart Banksia Grove,Aisle 4 Bay 03,Grocery Bay,Aisle 4,03,"POLYGON ((14.5 11.2, 15.8 11.2, 15.8 12.8, 14.5 12.8, 14.5 11.2))",2,2.08,183100
+FreshMart Banksia Grove,Aisle 4 Bay 04,Grocery Bay,Aisle 4,04,"POLYGON ((14.5 12.8, 15.8 12.8, 15.8 14.4, 14.5 14.4, 14.5 12.8))",2,2.08,170300
+FreshMart Banksia Grove,Aisle 4 Bay 05,Grocery Bay,Aisle 4,05,"POLYGON ((14.5 14.4, 15.8 14.4, 15.8 16, 14.5 16, 14.5 14.4))",2,2.08,117600
+FreshMart Banksia Grove,Aisle 4 Bay 06,Grocery Bay,Aisle 4,06,"POLYGON ((14.5 16, 15.8 16, 15.8 17.6, 14.5 17.6, 14.5 16))",2,2.08,152000
+FreshMart Banksia Grove,Aisle 4 Bay 07,Grocery Bay,Aisle 4,07,"POLYGON ((14.5 17.6, 15.8 17.6, 15.8 19.2, 14.5 19.2, 14.5 17.6))",2,2.08,114800
+FreshMart Banksia Grove,Aisle 4 Bay 08,Grocery Bay,Aisle 4,08,"POLYGON ((14.5 19.2, 15.8 19.2, 15.8 20.8, 14.5 20.8, 14.5 19.2))",2,2.08,112300
+FreshMart Banksia Grove,Aisle 4 Bay 09,Grocery Bay,Aisle 4,09,"POLYGON ((14.5 20.8, 15.8 20.8, 15.8 22.4, 14.5 22.4, 14.5 20.8))",2,2.08,138800
+FreshMart Banksia Grove,Aisle 4 Bay 10,Grocery Bay,Aisle 4,10,"POLYGON ((14.5 22.4, 15.8 22.4, 15.8 24, 14.5 24, 14.5 22.4))",2,2.08,145300
+FreshMart Banksia Grove,Aisle 4 End Cap South,End Cap,Aisle 4,End S,"POLYGON ((14.5 6.7, 15.8 6.7, 15.8 8, 14.5 8, 14.5 6.7))",2,1.69,186000
+FreshMart Banksia Grove,Aisle 4 End Cap North,End Cap,Aisle 4,End N,"POLYGON ((14.5 24, 15.8 24, 15.8 25.3, 14.5 25.3, 14.5 24))",2,1.69,296900
+FreshMart Banksia Grove,Aisle 5 Bay 01,Grocery Bay,Aisle 5,01,"POLYGON ((18 8, 19.3 8, 19.3 9.6, 18 9.6, 18 8))",2,2.08,134400
+FreshMart Banksia Grove,Aisle 5 Bay 02,Grocery Bay,Aisle 5,02,"POLYGON ((18 9.6, 19.3 9.6, 19.3 11.2, 18 11.2, 18 9.6))",2,2.08,135400
+FreshMart Banksia Grove,Aisle 5 Bay 03,Grocery Bay,Aisle 5,03,"POLYGON ((18 11.2, 19.3 11.2, 19.3 12.8, 18 12.8, 18 11.2))",2,2.08,191100
+FreshMart Banksia Grove,Aisle 5 Bay 04,Grocery Bay,Aisle 5,04,"POLYGON ((18 12.8, 19.3 12.8, 19.3 14.4, 18 14.4, 18 12.8))",2,2.08,183800
+FreshMart Banksia Grove,Aisle 5 Bay 05,Grocery Bay,Aisle 5,05,"POLYGON ((18 14.4, 19.3 14.4, 19.3 16, 18 16, 18 14.4))",2,2.08,131900
+FreshMart Banksia Grove,Aisle 5 Bay 06,Grocery Bay,Aisle 5,06,"POLYGON ((18 16, 19.3 16, 19.3 17.6, 18 17.6, 18 16))",2,2.08,165600
+FreshMart Banksia Grove,Aisle 5 Bay 07,Grocery Bay,Aisle 5,07,"POLYGON ((18 17.6, 19.3 17.6, 19.3 19.2, 18 19.2, 18 17.6))",2,2.08,179400
+FreshMart Banksia Grove,Aisle 5 Bay 08,Grocery Bay,Aisle 5,08,"POLYGON ((18 19.2, 19.3 19.2, 19.3 20.8, 18 20.8, 18 19.2))",2,2.08,141500
+FreshMart Banksia Grove,Aisle 5 Bay 09,Grocery Bay,Aisle 5,09,"POLYGON ((18 20.8, 19.3 20.8, 19.3 22.4, 18 22.4, 18 20.8))",2,2.08,148200
+FreshMart Banksia Grove,Aisle 5 Bay 10,Grocery Bay,Aisle 5,10,"POLYGON ((18 22.4, 19.3 22.4, 19.3 24, 18 24, 18 22.4))",2,2.08,126900
+FreshMart Banksia Grove,Aisle 5 End Cap South,End Cap,Aisle 5,End S,"POLYGON ((18 6.7, 19.3 6.7, 19.3 8, 18 8, 18 6.7))",2,1.69,301500
+FreshMart Banksia Grove,Aisle 5 End Cap North,End Cap,Aisle 5,End N,"POLYGON ((18 24, 19.3 24, 19.3 25.3, 18 25.3, 18 24))",2,1.69,233200
+FreshMart Banksia Grove,Aisle 6 Bay 01,Freezer Bay,Aisle 6,01,"POLYGON ((21.5 8, 22.8 8, 22.8 9.6, 21.5 9.6, 21.5 8))",2,2.08,164100
+FreshMart Banksia Grove,Aisle 6 Bay 02,Freezer Bay,Aisle 6,02,"POLYGON ((21.5 9.6, 22.8 9.6, 22.8 11.2, 21.5 11.2, 21.5 9.6))",2,2.08,184900
+FreshMart Banksia Grove,Aisle 6 Bay 03,Freezer Bay,Aisle 6,03,"POLYGON ((21.5 11.2, 22.8 11.2, 22.8 12.8, 21.5 12.8, 21.5 11.2))",2,2.08,128000
+FreshMart Banksia Grove,Aisle 6 Bay 04,Freezer Bay,Aisle 6,04,"POLYGON ((21.5 12.8, 22.8 12.8, 22.8 14.4, 21.5 14.4, 21.5 12.8))",2,2.08,200900
+FreshMart Banksia Grove,Aisle 6 Bay 05,Freezer Bay,Aisle 6,05,"POLYGON ((21.5 14.4, 22.8 14.4, 22.8 16, 21.5 16, 21.5 14.4))",2,2.08,159700
+FreshMart Banksia Grove,Aisle 6 Bay 06,Freezer Bay,Aisle 6,06,"POLYGON ((21.5 16, 22.8 16, 22.8 17.6, 21.5 17.6, 21.5 16))",2,2.08,153800
+FreshMart Banksia Grove,Aisle 6 Bay 07,Freezer Bay,Aisle 6,07,"POLYGON ((21.5 17.6, 22.8 17.6, 22.8 19.2, 21.5 19.2, 21.5 17.6))",2,2.08,113000
+FreshMart Banksia Grove,Aisle 6 Bay 08,Freezer Bay,Aisle 6,08,"POLYGON ((21.5 19.2, 22.8 19.2, 22.8 20.8, 21.5 20.8, 21.5 19.2))",2,2.08,198700
+FreshMart Banksia Grove,Aisle 6 Bay 09,Freezer Bay,Aisle 6,09,"POLYGON ((21.5 20.8, 22.8 20.8, 22.8 22.4, 21.5 22.4, 21.5 20.8))",2,2.08,223900
+FreshMart Banksia Grove,Aisle 6 Bay 10,Freezer Bay,Aisle 6,10,"POLYGON ((21.5 22.4, 22.8 22.4, 22.8 24, 21.5 24, 21.5 22.4))",2,2.08,155100
+FreshMart Banksia Grove,Aisle 6 End Cap South,End Cap,Aisle 6,End S,"POLYGON ((21.5 6.7, 22.8 6.7, 22.8 8, 21.5 8, 21.5 6.7))",2,1.69,280700
+FreshMart Banksia Grove,Aisle 6 End Cap North,End Cap,Aisle 6,End N,"POLYGON ((21.5 24, 22.8 24, 22.8 25.3, 21.5 25.3, 21.5 24))",2,1.69,270300
+FreshMart Banksia Grove,Aisle 7 Bay 01,Freezer Bay,Aisle 7,01,"POLYGON ((25 8, 26.3 8, 26.3 9.6, 25 9.6, 25 8))",2,2.08,144600
+FreshMart Banksia Grove,Aisle 7 Bay 02,Freezer Bay,Aisle 7,02,"POLYGON ((25 9.6, 26.3 9.6, 26.3 11.2, 25 11.2, 25 9.6))",2,2.08,198000
+FreshMart Banksia Grove,Aisle 7 Bay 03,Freezer Bay,Aisle 7,03,"POLYGON ((25 11.2, 26.3 11.2, 26.3 12.8, 25 12.8, 25 11.2))",2,2.08,113500
+FreshMart Banksia Grove,Aisle 7 Bay 04,Freezer Bay,Aisle 7,04,"POLYGON ((25 12.8, 26.3 12.8, 26.3 14.4, 25 14.4, 25 12.8))",2,2.08,105900
+FreshMart Banksia Grove,Aisle 7 Bay 05,Freezer Bay,Aisle 7,05,"POLYGON ((25 14.4, 26.3 14.4, 26.3 16, 25 16, 25 14.4))",2,2.08,182400
+FreshMart Banksia Grove,Aisle 7 Bay 06,Freezer Bay,Aisle 7,06,"POLYGON ((25 16, 26.3 16, 26.3 17.6, 25 17.6, 25 16))",2,2.08,219400
+FreshMart Banksia Grove,Aisle 7 Bay 07,Freezer Bay,Aisle 7,07,"POLYGON ((25 17.6, 26.3 17.6, 26.3 19.2, 25 19.2, 25 17.6))",2,2.08,158500
+FreshMart Banksia Grove,Aisle 7 Bay 08,Freezer Bay,Aisle 7,08,"POLYGON ((25 19.2, 26.3 19.2, 26.3 20.8, 25 20.8, 25 19.2))",2,2.08,169700
+FreshMart Banksia Grove,Aisle 7 Bay 09,Freezer Bay,Aisle 7,09,"POLYGON ((25 20.8, 26.3 20.8, 26.3 22.4, 25 22.4, 25 20.8))",2,2.08,163600
+FreshMart Banksia Grove,Aisle 7 Bay 10,Freezer Bay,Aisle 7,10,"POLYGON ((25 22.4, 26.3 22.4, 26.3 24, 25 24, 25 22.4))",2,2.08,203700
+FreshMart Banksia Grove,Aisle 7 End Cap South,End Cap,Aisle 7,End S,"POLYGON ((25 6.7, 26.3 6.7, 26.3 8, 25 8, 25 6.7))",2,1.69,291000
+FreshMart Banksia Grove,Aisle 7 End Cap North,End Cap,Aisle 7,End N,"POLYGON ((25 24, 26.3 24, 26.3 25.3, 25 25.3, 25 24))",2,1.69,347000
+FreshMart Banksia Grove,Dairy Wall Bay 01,Dairy Bay,Dairy Wall,01,"POLYGON ((2 25.6, 4.4 25.6, 4.4 26.9, 2 26.9, 2 25.6))",2,3.12,198800
+FreshMart Banksia Grove,Dairy Wall Bay 02,Dairy Bay,Dairy Wall,02,"POLYGON ((4.4 25.6, 6.8 25.6, 6.8 26.9, 4.4 26.9, 4.4 25.6))",2,3.12,202700
+FreshMart Banksia Grove,Dairy Wall Bay 03,Dairy Bay,Dairy Wall,03,"POLYGON ((6.8 25.6, 9.2 25.6, 9.2 26.9, 6.8 26.9, 6.8 25.6))",2,3.12,254500
+FreshMart Banksia Grove,Dairy Wall Bay 04,Dairy Bay,Dairy Wall,04,"POLYGON ((9.2 25.6, 11.6 25.6, 11.6 26.9, 9.2 26.9, 9.2 25.6))",2,3.12,270300
+FreshMart Banksia Grove,Dairy Wall Bay 05,Dairy Bay,Dairy Wall,05,"POLYGON ((11.6 25.6, 14 25.6, 14 26.9, 11.6 26.9, 11.6 25.6))",2,3.12,302300
+FreshMart Banksia Grove,Dairy Wall Bay 06,Dairy Bay,Dairy Wall,06,"POLYGON ((14 25.6, 16.4 25.6, 16.4 26.9, 14 26.9, 14 25.6))",2,3.12,259800
+FreshMart Banksia Grove,Dairy Wall Bay 07,Dairy Bay,Dairy Wall,07,"POLYGON ((16.4 25.6, 18.8 25.6, 18.8 26.9, 16.4 26.9, 16.4 25.6))",2,3.12,229300
+FreshMart Banksia Grove,Dairy Wall Bay 08,Dairy Bay,Dairy Wall,08,"POLYGON ((18.8 25.6, 21.2 25.6, 21.2 26.9, 18.8 26.9, 18.8 25.6))",2,3.12,240400
+FreshMart Banksia Grove,Dairy Wall Bay 09,Dairy Bay,Dairy Wall,09,"POLYGON ((21.2 25.6, 23.6 25.6, 23.6 26.9, 21.2 26.9, 21.2 25.6))",2,3.12,196900
+FreshMart Banksia Grove,Dairy Wall Bay 10,Dairy Bay,Dairy Wall,10,"POLYGON ((23.6 25.6, 26 25.6, 26 26.9, 23.6 26.9, 23.6 25.6))",2,3.12,300800
+FreshMart Banksia Grove,Dairy Wall Bay 11,Dairy Bay,Dairy Wall,11,"POLYGON ((26 25.6, 28.4 25.6, 28.4 26.9, 26 26.9, 26 25.6))",2,3.12,288600
+FreshMart Banksia Grove,Dairy Wall Bay 12,Dairy Bay,Dairy Wall,12,"POLYGON ((28.4 25.6, 30.8 25.6, 30.8 26.9, 28.4 26.9, 28.4 25.6))",2,3.12,260400
+FreshMart Banksia Grove,Dairy Wall Bay 13,Dairy Bay,Dairy Wall,13,"POLYGON ((30.8 25.6, 33.2 25.6, 33.2 26.9, 30.8 26.9, 30.8 25.6))",2,3.12,203400
+FreshMart Banksia Grove,Dairy Wall Bay 14,Dairy Bay,Dairy Wall,14,"POLYGON ((33.2 25.6, 35.6 25.6, 35.6 26.9, 33.2 26.9, 33.2 25.6))",2,3.12,171800
+FreshMart Banksia Grove,Chiller Wall Bay 01,Chilled Bay,Chiller Wall,01,"POLYGON ((0.3 8, 1.6 8, 1.6 9.6, 0.3 9.6, 0.3 8))",2,2.08,147800
+FreshMart Banksia Grove,Chiller Wall Bay 02,Chilled Bay,Chiller Wall,02,"POLYGON ((0.3 9.6, 1.6 9.6, 1.6 11.2, 0.3 11.2, 0.3 9.6))",2,2.08,154700
+FreshMart Banksia Grove,Chiller Wall Bay 03,Chilled Bay,Chiller Wall,03,"POLYGON ((0.3 11.2, 1.6 11.2, 1.6 12.8, 0.3 12.8, 0.3 11.2))",2,2.08,270300
+FreshMart Banksia Grove,Chiller Wall Bay 04,Chilled Bay,Chiller Wall,04,"POLYGON ((0.3 12.8, 1.6 12.8, 1.6 14.4, 0.3 14.4, 0.3 12.8))",2,2.08,158100
+FreshMart Banksia Grove,Chiller Wall Bay 05,Chilled Bay,Chiller Wall,05,"POLYGON ((0.3 14.4, 1.6 14.4, 1.6 16, 0.3 16, 0.3 14.4))",2,2.08,169300
+FreshMart Banksia Grove,Chiller Wall Bay 06,Chilled Bay,Chiller Wall,06,"POLYGON ((0.3 16, 1.6 16, 1.6 17.6, 0.3 17.6, 0.3 16))",2,2.08,260100
+FreshMart Banksia Grove,Chiller Wall Bay 07,Chilled Bay,Chiller Wall,07,"POLYGON ((0.3 17.6, 1.6 17.6, 1.6 19.2, 0.3 19.2, 0.3 17.6))",2,2.08,224500
+FreshMart Banksia Grove,Chiller Wall Bay 08,Chilled Bay,Chiller Wall,08,"POLYGON ((0.3 19.2, 1.6 19.2, 1.6 20.8, 0.3 20.8, 0.3 19.2))",2,2.08,148700
+FreshMart Banksia Grove,Chiller Wall Bay 09,Chilled Bay,Chiller Wall,09,"POLYGON ((0.3 20.8, 1.6 20.8, 1.6 22.4, 0.3 22.4, 0.3 20.8))",2,2.08,187600
+FreshMart Banksia Grove,Chiller Wall Bay 10,Chilled Bay,Chiller Wall,10,"POLYGON ((0.3 22.4, 1.6 22.4, 1.6 24, 0.3 24, 0.3 22.4))",2,2.08,153900
+FreshMart Banksia Grove,Produce Table 01,Produce Bay,Produce,01,"POLYGON ((31 9, 35 9, 35 12, 31 12, 31 9))",2,12.0,361900
+FreshMart Banksia Grove,Produce Table 02,Produce Bay,Produce,02,"POLYGON ((31 14.5, 35 14.5, 35 17.5, 31 17.5, 31 14.5))",2,12.0,426600
+FreshMart Banksia Grove,Produce Table 03,Produce Bay,Produce,03,"POLYGON ((31 20, 35 20, 35 23, 31 23, 31 20))",2,12.0,430200
+FreshMart Banksia Grove,Produce Table 04,Produce Bay,Produce,04,"POLYGON ((37.5 9, 41.5 9, 41.5 12, 37.5 12, 37.5 9))",2,12.0,317700
+FreshMart Banksia Grove,Produce Table 05,Produce Bay,Produce,05,"POLYGON ((37.5 14.5, 41.5 14.5, 41.5 17.5, 37.5 17.5, 37.5 14.5))",2,12.0,368200
+FreshMart Banksia Grove,Produce Table 06,Produce Bay,Produce,06,"POLYGON ((37.5 20, 41.5 20, 41.5 23, 37.5 23, 37.5 20))",2,12.0,322900

@@ -45,6 +45,14 @@ Data flow through `Visual`:
 
 Unit tests cover pure `core/` functions but can't catch a transient exception mid-render that leaves the visual permanently blank — that's what `npm run smoke` guards against. It compiles the real `Visual` class with `tsc` (so ambient const enums inline exactly as in the production build), bundles with esbuild, and drives `update()` under jsdom against a mocked `IVisualHost` with realistic data views (geometry-only, all-fields-bound, cross-highlights, whitespace-padded WKT, empty data). It asserts no `renderingFailed` fires, the auto-fit transform is numerically correct, and every geometry lands inside the viewport. Treat a smoke failure as a real regression, not flakiness — add a new fixture case in `harness/harness.ts` when adding a code path that the existing fixtures don't exercise.
 
+## CI and releases
+
+`.github/workflows/ci.yml` has two jobs:
+- `test` — runs on every push and PR to `main`: lint, unit tests, smoke tests. Required as a status check on `main` (branch protection).
+- `release` — runs only on a push to `main` (not PRs) after `test` passes. Reads the version from `pbiviz.json`, skips if a GitHub Release for that tag (`v<version>`) already exists, otherwise runs `npx pbiviz package` and publishes the `.pbiviz` file as a new Release via `gh release create`.
+
+**Releasing means bumping the version.** A push to `main` that doesn't change `pbiviz.json`'s `version` field produces no new release (the existing-tag check makes this a no-op, not a failure). To cut a release, bump `visual.version` and the top-level `version` in `pbiviz.json` (keep them equal) before merging — see the versioning note in the README's AppSource section for the segment convention already in use.
+
 ## Conventions specific to this repo
 
 - **Pinned names matter.** Object/property names in `capabilities.json`, `src/settings.ts`, and `src/core/constants.ts` must stay in sync — `test/pinnedNames.test.ts` enforces this. If you rename a formatting-pane property, update all three plus check for a corresponding migration concern (Power BI persists these names in saved reports).
